@@ -1,0 +1,126 @@
+body {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 20px;
+   color: white;
+}
+
+form {
+  border-radius: 25px;
+  padding: 20px 20px;
+  margin: 0px 100px 0px 100px;
+  background-color: #00BFFF;
+}
+
+input {
+  width: 300px;
+}
+
+input[type=text] {
+  height: 20px;
+}
+
+h1 {
+    color: #1a4699;
+    text-align: center;
+}
+
+@keyframes animation {
+  from {color: rgba(255, 255, 255, 0);}
+  to {color: rgba(255, 255, 255, 1);}
+}
+
+#confirmation {
+    color: #1a4699;
+    font-size: 15px;
+}
+
+#log {
+  border-radius: 25px;
+  padding: 20px 20px;
+  white-space: pre-line;
+  background-color: #00BFFF;
+  background-position: center;
+  margin: 0px 100px 0px 100px;
+  font-size: 15px;
+  word-wrap: break-word;
+  animation-name: animation;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+p {
+  padding-left: 100px;
+}
+
+#mlist {
+    color: #00BFFF;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  font-size: 15px;
+  color: white;
+  margin: 20px 20px 0px 20px;
+  padding: 10px 10px;
+  border-radius: 10px;
+  background-color: #27b1d3;
+}
+
+button[type=button], button[type=submit], button[type=reset] {
+  background-color: #0080FF;
+  border: none;
+  color: white;
+  height: 30px;
+  width: 100px;
+  margin: 10px 2px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  list-style-type: none;
+  float: left;
+}
+
+#ref {
+  color: white;
+  font-size: 15px;
+  text-align: left;
+  font-weight: normal;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+#dino {
+  width: 200px;
+  height: 200px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
